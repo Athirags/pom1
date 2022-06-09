@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LeafTaps Leads UI Cases" verbose="10">
+ <parameter name="browserName" value="Chrome"/>
+<parameter name="URL" value="http://leaftaps.com/opentaps/"/>
+  <test  name="Create lead Test-chrome">
+   <classes>
+ <class name="com.leaftaps.ui.tests.Deleatlead_positive"/>
+ <class name="com.leaftaps.ui.tests.Edilead_positive"/>
+ <class name="com.leaftaps.ui.tests.CreateLead_Positive"/>
+ <class name="com.leaftaps.ui.tests.CreateAccount_Positive"/>
+ <class name="com.leaftaps.ui.tests.FindAccount_positive"/>
+   </classes>
+  </test> <!-- CreateLEadTest -->
+ </suite> <!-- LeafTaps Leads UI Cases -->
